@@ -1,0 +1,39 @@
+
+
+
+@media(min-width:75rem){
+
+    .hamburger{
+        display: none;
+    }
+
+    .hero-bg{
+        background-image: url(/web-pictures/images/image-hero-desktop.jpg);
+        background-size: contain;
+        margin-top: -2.63rem;
+    }
+
+    header{
+        height: 12.5rem;
+        width: 77%;
+    }
+
+
+     
+    .desktop-nav{
+        display: block;
+        width: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style: none;
+       
+    }
+
+    .desktop-nav a{
+        text-decoration: none;
+        color: var(--white);
+        font-size: 0.9rem;
+    }
+
+}

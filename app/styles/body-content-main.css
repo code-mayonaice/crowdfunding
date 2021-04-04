@@ -1,0 +1,141 @@
+
+.logo-mastercraft{
+    position: absolute;
+    top: -0.2%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.body-semi-container{
+    width: 70%;
+    margin: auto;
+  
+}
+
+.slogantext{
+    line-height: 1.6;
+}
+
+.title{
+    font-size: var(--fsize);
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.bootmarks{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   margin: auto;
+}
+
+.body-content .slogantext{
+    text-align: center;
+    padding: 1.5rem 0rem;
+    color: var(--dark-grey);
+}
+
+.bootmarks button{
+    background-color: var(--moderate-cyan);
+    color: var(--white);
+    font-weight: var(--fbold);
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    width: 10rem;
+    padding: 1rem 0rem;
+    border-radius: 50px;
+    font-family: sans-serif;
+}
+
+.numbers{
+    margin-top: 5rem;
+    height: 25rem;
+    line-height: 0.8;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.numbers span{
+    color: var(--dark-grey); 
+}
+
+.progressbar{
+    width: 80%;
+    height: 0.7rem;
+    background-color: var(--moderate-cyan);
+    border-radius: 10px;
+    margin-top: 0.7rem;
+}
+
+.about-project{
+    margin-top: 5rem;
+}
+
+.about-project h1{
+    font-size: 1.1rem;
+}
+
+.about-project p{
+    color: var(--dark-grey);
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+}
+
+.rewards{
+    height: 75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.selections{
+  border: 0.7px solid rgba(56, 55, 55, 0.233);
+  height: 23rem;
+  padding: 0.7rem 1.3rem;
+}
+.selections p{
+    color: var(--dark-grey);
+    line-height: 1.5;
+}
+
+.solutiontitle{
+   line-height: 0.9;
+}
+
+.solutiontitle h1{
+   font-size: 0.8rem;
+  
+}
+
+.solutiontitle span{
+   color: var(--moderate-cyan);
+}
+
+.pricing{
+    display: flex;
+    height:3rem;
+    width: 33%;
+    align-items: center;
+}
+
+.pricing span{
+    margin-left:5px;
+    color: var(--dark-grey);
+}
+
+.selections button{
+    border: none;
+    outline: none;
+    padding: 0.8rem 1.8rem;
+    border-radius: 20px;
+    background-color: var(--moderate-cyan);
+    color: var(--white);
+    font-size: var(--fbold);
+    font-size: 0.8rem;
+}

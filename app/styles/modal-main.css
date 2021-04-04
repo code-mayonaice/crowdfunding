@@ -1,0 +1,57 @@
+
+
+
+.titleremove{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1.4rem;
+}
+
+.title-text{
+    width: 82%;
+    margin: auto;
+   
+}
+
+.popup-modal h1{
+    font-size: 1.1rem;
+    text-align: center;
+
+}
+
+.pledge{
+    margin: 2rem auto;
+    height: 17rem;
+    width: 88%;
+    border: 0.3px solid rgba(109, 109, 109, 0.24);
+}
+
+.pledge h1{
+   padding: 2rem 0rem 2rem 0rem;
+}
+
+.edition{
+    height: 17rem;
+    width: 88%;
+    margin:  2rem auto;
+    border: 0.3px solid rgba(109, 109, 109, 0.24);
+}
+
+
+.modal-price{
+    text-align: center;
+    line-height: 1;
+    padding-top: 1rem;
+}
+
+.popup-modal p,.popup-modal .pricing{
+    padding: 0px 15px ;
+}
+
+.faded-section{
+    opacity: 0.5;
+    border: none !important;
+}
+
+

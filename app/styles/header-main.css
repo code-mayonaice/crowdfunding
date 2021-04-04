@@ -1,0 +1,42 @@
+
+
+.hamburger{
+    z-index: 4;
+}
+
+.desktop-nav{
+    display: none;
+}
+
+.hamburger-nav{
+    width: 88%;
+    height: 15rem;
+    background-color: var(--white);
+    border-radius: 15px;
+    top: 17%;
+    list-style: none;
+    z-index: 4;
+    display: none;
+    position: fixed;
+}
+
+.hamburger-nav li{
+    padding-bottom: 20px;
+    margin-top: 2.4rem;
+}
+
+.hamburger-nav-active{
+    display: block;
+    
+}
+
+.hamburger-nav a{
+    color: var(--black);
+    font-weight: var(--fbold);
+    text-decoration: none;
+}
+
+.remover{
+    display: none;
+    margin-top: -1.7rem;
+}
