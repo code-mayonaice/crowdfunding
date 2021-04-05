@@ -54,4 +54,6 @@
     border: none !important;
 }
 
-
+.modal-active{
+    transform: translate(-50%, -17%) scale(1);
+}

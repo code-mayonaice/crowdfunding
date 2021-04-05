@@ -79,5 +79,6 @@ header{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -17%) scale(0);
-    background-color: (var(--white));
+    background-color: khaki;
+    z-index: 10;
 }
